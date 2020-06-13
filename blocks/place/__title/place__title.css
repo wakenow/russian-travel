@@ -1,0 +1,12 @@
+.place__title {
+    width: 460px;
+    margin: 0 40px 0 0;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 1.06;
+    color: #ffffff;
+    position: relative;
+    align-self: flex-end;
+}
