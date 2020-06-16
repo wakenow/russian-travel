@@ -1,13 +1,25 @@
 .lead__caption {
-    width: 159px;
-    height: 14px;
+    max-width: 159px;
+    min-height: 14px;
     margin: 0;
-    font-family: Inter;
+    font-family: 'Inter';
     font-style: normal;
     font-weight: normal;
-    font-size: 10px;
+    font-size: 0.625rem;
     line-height: 1.4;
     letter-spacing: 0.15em;
     text-transform: uppercase;
     color: #FFFFFF;
+}
+
+@media (max-width: 768px) {
+    .lead__caption {
+        padding-left: 1.5rem;
+    }
+}
+
+@media (max-width: 320px) {
+    .lead__caption {
+        padding-left: 1rem;
+    }
 }

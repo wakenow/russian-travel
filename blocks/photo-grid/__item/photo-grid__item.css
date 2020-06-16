@@ -1,5 +1,21 @@
 .photo-grid__item {
-    width: 284px;
-    height: 213px;
+    width: 100%;
+    min-height: 213px;
     object-fit: cover;
 }
+
+@media (max-width: 1024px) {
+    .photo-grid__item {
+        min-height: 225px;
+    }
+}
+
+@media (max-width: 768px) {
+    .photo-grid__item {
+        min-height: 264px;
+    }
+
+@media (max-width: 580px) {
+    .photo-grid__item {
+        min-height: 216px;
+    }

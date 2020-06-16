@@ -1,0 +1,11 @@
+.header__links {
+    padding-top: 1.125rem;
+    padding-bottom: 0.5rem;
+}
+
+@media (max-width: 320px) {
+    .header__links {
+        padding-top: 0.875rem;
+        padding-bottom: 0.25rem;
+    }
+}

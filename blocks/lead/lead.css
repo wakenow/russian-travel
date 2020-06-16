@@ -4,6 +4,26 @@
 @import url(__caption/lead__caption.css);
 
 .lead {
-    width: 984px;
-    margin: 56px 148px 92px;
+    width: 76.875%;
+    margin: 3.5rem auto 5.75rem;
+}
+
+@media (max-width: 1024px) {
+    .lead {
+        width: 90.625%;
+        margin-top: 3rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .lead {
+        width: 100%;
+        margin-bottom: 5.5rem;
+    }
+}
+
+@media (max-width: 320px) {
+    .lead {
+        margin-bottom: 4rem;
+    }
 }

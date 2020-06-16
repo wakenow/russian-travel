@@ -1,5 +1,31 @@
 .place__image {
-    width: 460px;
-    height: 460px;
-    margin-right: 40px;
+    max-width: 460px;
+    min-height: 460px;
+    margin-right: 2.5rem;
+    object-fit: cover;
+}
+
+@media (max-width: 1024px) {
+    .place__image {
+        max-width: 440px;
+        min-height: 440px;
+        margin-right: 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .place__image {
+        max-width: 340px;
+        min-height: 340px;
+        margin-right: 1.75rem;
+    }
+}
+
+@media (max-width: 580px) {
+    .place__image {
+        width: 100%;
+        min-height: 320px;
+        margin-bottom: 2rem;
+        object-fit: cover;
+    }
 }

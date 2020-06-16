@@ -1,12 +1,24 @@
 .place__paragraph {
-    margin-bottom: 24px;
+    margin-bottom: 1.5rem;
     margin-top: 0;
-    width: 484px;
-    min-height: 150px;
-    font-family: Inter;
+    font-family: 'Inter';
     font-style: normal;
     font-weight: normal;
-    font-size: 18px;
+    font-size: 1.125rem;
     line-height: 1.67;
     color: #FFFFFF;
+}
+
+@media (max-width: 910px) {
+    .place__paragraph {
+    font-size: 1rem;
+    line-height: 1.62;
+    }
+}
+
+@media (max-width: 320px) {
+    .place__paragraph {
+    width: 90%;
+    margin: 0 auto 1.5rem;
+    }
 }

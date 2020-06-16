@@ -1,11 +1,15 @@
 .place__website {
-   padding: 106px 28px 0 0;
+   padding: 0 1.75rem 0 0;
    list-style: none;
    margin: 0;
-   min-height: 72px;
-   max-height: 152px;
    display: flex;
    flex-direction: column;
    position: relative;
    justify-content: flex-end;
+}
+
+@media (max-width: 320px) {
+   .place__website {
+      display: none;
+   }
 }
