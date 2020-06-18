@@ -8,7 +8,7 @@
 .cover {
     width: 92.5%;
     margin: 5.75rem auto;
-    box-sizing: border-box;
+    box-sizing: content-box;
     position: relative;
 }
 
