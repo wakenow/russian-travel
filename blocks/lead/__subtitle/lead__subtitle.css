@@ -2,8 +2,7 @@
     margin: 0 auto 4rem;
     text-align: center;
     max-width: 640px;
-    min-height: 72px;
-    font-family: 'Inter';
+    font-family: 'Inter', 'Arial', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 1.875rem;
@@ -22,7 +21,6 @@
         font-size: 1rem;
         line-height: 1.25;
         margin: 0 auto 2.5rem;
-        min-height: 40px;
         max-width: 288px;
     }
 }

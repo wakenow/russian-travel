@@ -6,7 +6,6 @@
 .intro {
     margin: 5.75rem 27.625rem 5.75rem 9.25rem;
     max-width: 690px;
-    min-height: 428px;
 }
 
 @media (max-width: 1024px) {
@@ -18,7 +17,6 @@
 
 @media (max-width: 768px) {
     .intro {
-        width: 720px;
         margin: 5.5rem auto;
     }
 }
@@ -26,7 +24,6 @@
 @media (max-width: 725px) {
     .intro {
         width: 90%;
-        min-height: 752px;
         margin: 4rem auto;
     }
 }
