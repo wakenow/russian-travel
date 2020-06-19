@@ -1,3 +1,8 @@
+.footer__links {
+    list-style: none;
+    display: inline;
+}
+
 @media (max-width: 580px) {
     .footer__links {
         display: flex;

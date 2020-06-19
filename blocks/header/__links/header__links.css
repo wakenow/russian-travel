@@ -1,6 +1,7 @@
 .header__links {
     padding-top: 1.125rem;
     padding-bottom: 0.5rem;
+    list-style: none;
 }
 
 @media (max-width: 320px) {
