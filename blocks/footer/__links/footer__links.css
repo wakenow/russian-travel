@@ -2,7 +2,7 @@
     list-style: none;
 }
 
-@media (max-width: 580px) {
+@media (max-width: 710px) {
     .footer__links {
         padding-bottom: 32px;
     }
