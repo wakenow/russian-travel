@@ -14,8 +14,10 @@
     .photo-grid__item {
         min-height: 264px;
     }
+}
 
 @media (max-width: 580px) {
     .photo-grid__item {
         min-height: 216px;
     }
+}

@@ -1,4 +1,30 @@
 .cover__link {
-    text-decoration: none;
-    color: #ffffff;
+  text-decoration: none; 
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center;  
+  text-align: center; 
+  position: relative; 
+  background-image: url(../../../images/cover-trains.jpg); 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  background-position: center;  
+  margin: 0; 
   }
+
+.cover__link::before {
+  content: ''; 
+  position: absolute; 
+  left: 0; 
+  top: 0; 
+  right: 0; 
+  bottom: 0; 
+  background: #2A2C2F; 
+  opacity: 0.3; 
+  transition: 0.3s ease-in;
+}
+
+.cover__link:hover::before {
+  opacity: 0.8; 
+}

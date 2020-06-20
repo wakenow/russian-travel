@@ -1,7 +1,7 @@
 .header__links {
     padding-top: 1.125rem;
     padding-bottom: 0.5rem;
-    list-style: none;
+    display: flex;
 }
 
 @media (max-width: 320px) {

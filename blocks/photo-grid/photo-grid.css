@@ -1,7 +1,7 @@
 @import url(__item/photo-grid__item.css);
 
 .photo-grid {
-    width: 92.5%;
+    max-width: 1184px;
     display: grid;
     margin: 5.75rem auto;
     grid-template-columns: repeat(4, 1fr);

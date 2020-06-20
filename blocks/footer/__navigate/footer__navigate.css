@@ -1,4 +1,11 @@
 .footer__navigate {
     margin: 0;
     padding: 0;
+    display: flex;
+}
+
+@media (max-width: 580px) {
+    .footer__navigate {
+        flex-direction: column;
+    }
 }

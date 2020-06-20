@@ -4,8 +4,10 @@
 @import url(__span/intro__span.css);
 
 .intro {
-    margin: 5.75rem 27.625rem 5.75rem 9.25rem;
-    max-width: 690px;
+    margin: 114px 0 92px 11.5%;
+    max-width: 720px;
+    display: flex;
+    flex-direction: column;
 }
 
 @media (max-width: 1024px) {

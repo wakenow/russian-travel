@@ -1,11 +1,9 @@
 .footer__links {
     list-style: none;
-    display: inline;
 }
 
 @media (max-width: 580px) {
     .footer__links {
-        display: flex;
-        flex-direction: column;
+        padding-bottom: 32px;
     }
 }
