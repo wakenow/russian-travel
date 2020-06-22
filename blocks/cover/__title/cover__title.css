@@ -13,19 +13,18 @@
 
 @media (max-width: 1024px) {
     .cover__title {
-        padding: 12.1875rem 14.5rem 0;
+        padding-top: 195px;
     }
 }
 
 @media (max-width: 768px) {
     .cover__title {
-        padding: 7.1875rem 6.5rem 0;
-    }
+        padding-top: 115px;
 }
 
-@media (max-width: 627px) {
+@media (max-width: 650px) {
     .cover__title {
-        padding: 2.0625rem 1rem 0;
+        padding-top: 33px;
         margin-bottom: 1rem;
         font-size: 2rem;
         line-height: 1.09;

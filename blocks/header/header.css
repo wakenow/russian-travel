@@ -5,11 +5,28 @@
 @import url(__lang-link/_ru/header__lang-link_ru.css);
 
 .header {
-    max-width: 92.5%;
+    max-width: 1184px;
     padding-top: 1.75rem;
-    margin-left: 3.75%;
-    margin-right: 3.75%;
+    margin: 0 auto 56px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    
+}
+
+@media (max-width: 1024px) {
+    .header {
+        margin: 0 48px 48px;
+    }
+}
+
+@media (max-width: 768px) {
+    .header {
+        margin: 0 24px 48px;
+    }
+}
+
+@media (max-width: 320px) {
+    .header {
+        margin: 0 16px 48px;
+    }
 }

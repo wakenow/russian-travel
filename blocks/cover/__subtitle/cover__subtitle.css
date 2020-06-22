@@ -7,26 +7,25 @@
     color: #FFFFFF;
     max-width: 360px; 
     margin: 0;
-    padding-top: 32px; 
     padding-bottom: 245px; 
     z-index: 1; 
 }
 
 @media (max-width: 1024px) {
     .cover__subtitle {
-        padding: 0 20.75rem 12.1875rem;
+        padding-bottom: 195px;
     }
 }
 
 @media (max-width: 768px) {
     .cover__subtitle {
-        padding: 0 12.75rem 7.1875rem;
+        padding-bottom: 115px;
     }
 }
 
-@media (max-width: 627px) {
+@media (max-width: 650px) {
     .cover__subtitle {
-        padding: 0 1rem 2.0625rem;
+        padding-bottom: 33px;
         font-size: 0.875rem;
         line-height: 1.14;
     }

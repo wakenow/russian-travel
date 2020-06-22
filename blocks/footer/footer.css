@@ -4,7 +4,7 @@
 @import url(../footer/__copyright/footer__copyright.css);
 
 .footer {
-    width: 92.5%;
+    max-width: 1184px;
     margin: 92px auto 0;
     padding-bottom: 24px;
     display: flex;
@@ -13,22 +13,19 @@
 
 @media (max-width: 1024px) {
     .footer {
-        width: 90.625%;
+        margin: 92px 24px 0;
     }
 }
 
 @media (max-width: 768px) {
     .footer {
-        width: 93.75%;
         margin-top: 88px;
     }
 }
 
 @media (max-width: 710px) {
     .footer {
-        max-width: 100%;
         flex-direction: column;
-        margin-top: 64px;
-        margin-left: 16px;
+        margin: 64px 118px 0 16px;
     }
 }

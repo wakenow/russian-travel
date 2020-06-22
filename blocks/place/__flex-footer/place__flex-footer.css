@@ -2,7 +2,7 @@
     display: flex;
 }
 
-@media (max-width: 580px) {
+@media (max-width: 650px) {
     .place__flex-footer {
         flex-direction: column;
     }

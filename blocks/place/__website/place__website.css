@@ -7,7 +7,7 @@
    justify-content: flex-end;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 650px) {
    .place__website {
       display: none;
    }

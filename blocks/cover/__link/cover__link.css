@@ -11,6 +11,8 @@
   background-size: cover; 
   background-position: center;  
   margin: 0; 
+  max-height: 740px;
+  object-fit: cover;
   }
 
 .cover__link::before {
@@ -27,4 +29,22 @@
 
 .cover__link:hover::before {
   opacity: 0.8; 
+}
+
+@media (max-width: 1024px) {
+  .cover__link {
+    min-height: 640px;
+  }
+}
+
+@media (max-width: 768px) {
+  .cover__link {
+    min-height: 480px;
+  }
+}
+
+@media (max-width: 650px) {
+  .cover__link {
+    min-height: 200px;
+  }
 }
