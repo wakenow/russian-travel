@@ -11,8 +11,6 @@
   background-size: cover; 
   background-position: center;  
   margin: 0; 
-  max-height: 740px;
-  object-fit: cover;
   }
 
 .cover__link::before {
@@ -43,7 +41,7 @@
   }
 }
 
-@media (max-width: 650px) {
+@media (max-width: 690px) {
   .cover__link {
     min-height: 200px;
   }
