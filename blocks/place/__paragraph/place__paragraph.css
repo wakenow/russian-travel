@@ -1,5 +1,4 @@
 .place__paragraph {
-    margin-bottom: 1.5rem;
     margin-top: 0;
     font-family: 'Inter', 'Arial', sans-serif;
     font-style: normal;
@@ -8,6 +7,7 @@
     line-height: 1.67;
     color: #FFFFFF;
     max-width: 456px;
+    margin-bottom: 0;
 }
 
 @media (max-width: 910px) {
@@ -27,6 +27,6 @@
 @media (max-width: 320px) {
     .place__paragraph {
     width: 90%;
-    margin: 0 auto 1.5rem;
+    margin: 0 auto;
     }
 }

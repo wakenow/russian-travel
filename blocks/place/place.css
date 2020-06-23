@@ -7,6 +7,7 @@
 @import url(__image/place__image.css);
 @import url(__paragraphs/place__paragraphs.css);
 @import url(__paragraph/place__paragraph.css);
+@import url(__paragraph/_top/place__paragraph_top.css);
 
 .place {
     width: 100%;
