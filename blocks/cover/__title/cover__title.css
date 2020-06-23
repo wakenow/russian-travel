@@ -20,6 +20,7 @@
 @media (max-width: 768px) {
     .cover__title {
         padding-top: 115px;
+    }
 }
 
 @media (max-width: 650px) {
