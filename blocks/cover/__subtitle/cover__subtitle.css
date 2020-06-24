@@ -23,7 +23,7 @@
     }
 }
 
-@media (max-width: 690px) {
+@media (max-width: 520px) {
     .cover__subtitle {
         padding-bottom: 33px;
         font-size: 0.875rem;
